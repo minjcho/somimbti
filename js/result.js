@@ -110,7 +110,7 @@ window.addEventListener('DOMContentLoaded', () => {
         if (imageUrl) {
             const downloadButton = document.createElement('a');
             downloadButton.href = `800w/${lastSelected}.png`;
-            downloadButton.download = `소미화방_${lastSelected}.jpg`;
+            downloadButton.download = `소미화방_${lastSelected}`;
             downloadButton.className = 'btn download-button';
             downloadButton.innerHTML = '결과 다운로드';
             buttonContainer.appendChild(downloadButton);
